@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-boot-rest-api
+  memory: 1G
+  instances: 1
+  host: spring-boot-rest-api
+  path: target/SpringBootRestApiExample-1.0.0.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
